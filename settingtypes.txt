@@ -1,0 +1,3 @@
+
+#    Okay so this setting is for configuratioring the scale that the upscaled gtex mod will use when scaling up textures in the global texture thing. So if you have textures that are 16x16 then you can set it to 16 and there will be a pixel for each node. Or you could set it to 4 and each 16x16 texture will span over 4x4 nodes. Cool right?
+upscaled_gtex_scale (Scale thingamajig) int 4

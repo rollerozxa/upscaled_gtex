@@ -6,7 +6,7 @@ minetest.register_on_mods_loaded(function()
 		local tiles = def.tiles
 		local target_tiles = {}
 
-		if tiles and legal_drawtype(def.drawtype) then
+		if tiles then
 			for index,_ in pairs(tiles) do
 				if type(tiles[index]) == 'table' then
 					tiles[index].align_style = 'world'
